@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # by Alexandre Cerqueira Leite
+# Depende do pacote Curl
 # Use 1800.00 seg de update 
 # Ajuste a cidade nas duas linhas abaixo <--------------- ATENÇÃO
 

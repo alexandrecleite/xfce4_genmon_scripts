@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # by Alexandre Cerqueira Leite
+# Depende do Awk, Grep e Cut
 # Use 5.00 seg de update 
 
 readonly USOHD=$(df -m /home | awk 'NR==2 {printf "%.2f GB", $4/1024}')

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # by Alexandre Cerqueira Leite
+# Depende do Top, Grep e Awk
 # Use 3.00 seg de update 
 
 readonly LSCPU=$(lscpu | grep -e "modelo" -e "CPU MHz")

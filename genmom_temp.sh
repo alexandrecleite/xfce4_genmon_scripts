@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # by Alexandre Cerqueira Leite
+# Depende do pacote sensors-lm, grep e awk
 # Use 2.00 seg de update 
 
 #Pegando IPs

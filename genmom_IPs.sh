@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # by Alexandre Cerqueira Leite
+# Depende do Curl, Grep e Cut
 # Use 600.00 seg de update 
 
 #Pegando IPs
