@@ -2,10 +2,12 @@
 # by Alexandre Cerqueira Leite
 # Depende do pacote Curl
 # Use 1800.00 seg de update 
-# Ajuste a cidade nas duas linhas abaixo <--------------- ATENÇÃO
 
-readonly CLIMA=$(curl wttr.in/Campinas?format=1)
-readonly CLIMATIP=$(curl wttr.in/Campinas?format=4)
+#Definindo Local
+LOCAL=$(curl ifconfig.co/city)
+
+readonly CLIMA=$(curl wttr.in/$LOCAL?format=1)
+readonly CLIMATIP=$(curl wttr.in/$LOCAL?0T)
 
 # Panel
 INFO+="<txt>"
