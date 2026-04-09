@@ -23,3 +23,6 @@ Clima<BR>
 HD (partição /Home)<BR>
 <img width="323" height="107" alt="genmon10" src="https://github.com/user-attachments/assets/75e4ce59-938a-4a71-a8a8-08b9970e6fa7" />
 </p>
+<BR><BR> <BR><BR> 
+<H3>Tutorial de instalação no meu Blog:</H3>
+https://acleite.wordpress.com/2026/04/07/personalize-o-painel-do-xfce-com-informacoes-do-sistema/
