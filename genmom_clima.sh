@@ -3,11 +3,8 @@
 # Depende do pacote Curl
 # Use 1800.00 seg de update 
 
-#Definindo Local
-LOCAL=$(curl ifconfig.co/city)
-
-readonly CLIMA=$(curl wttr.in/$LOCAL?format=1)
-readonly CLIMATIP=$(curl wttr.in/$LOCAL?0T)
+readonly CLIMA=$(curl wttr.in/?format=1)
+readonly CLIMATIP=$(curl wttr.in/?0T)
 
 # Panel
 INFO+="<txt>"
