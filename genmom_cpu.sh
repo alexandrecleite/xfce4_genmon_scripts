@@ -17,7 +17,7 @@ INFO+="</txt><txtclick>xfce4-taskmanager</txtclick>"
 
 # Tooltip
 MORE_INFO="<tool>"
-MORE_INFO+="CPU:\n\n"
+MORE_INFO+="CPU:  ${USO}\n\n"
 MORE_INFO+="${LSCPU}\n"
 MORE_INFO+="${LSCPU2}\n\n"
 MORE_INFO+="${USO2}"
