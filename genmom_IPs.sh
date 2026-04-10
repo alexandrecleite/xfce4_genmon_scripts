@@ -4,7 +4,7 @@
 # Use 600.00 seg de update 
 
 #Pegando IPs
-readonly IFACE=$(ip -4 a | grep -E "^[0-9]" | grep -e "LOWER_UP" | grep -v "lo" | cut -d" " -f2 | sed 's/://')
+readonly IFACE=$(ip -4 a | grep -e "LOWER_UP" | grep -v "lo" | cut -d" " -f2 | sed 's/://')
 readonly INT=$(hostname -I | cut -d" " -f1)
 readonly INT6=$(ip a | grep "inet6 fe80" | cut -d" " -f6)
 readonly EXT=$(curl -s -4 ifconfig.me)

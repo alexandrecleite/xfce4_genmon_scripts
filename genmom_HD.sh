@@ -4,7 +4,7 @@
 # Use 5.00 seg de update 
 
 readonly USOHD=$(df -m /home | awk 'NR==2 {printf "%.2f GB", $4/1024}')
-readonly DFH=$(df -h | grep -e "Uso%" -e "home" | cut -d" " -f8-16 | column -t)
+readonly DFH=$(df -h | grep -e "Uso%" -e "home" | cut -d" " -f8- | column -t)
 
 # Panel
 INFO+="<txt>"
