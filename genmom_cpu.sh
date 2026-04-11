@@ -7,6 +7,7 @@ readonly LSCPU=$(lscpu | grep -e "modelo" | column -t)
 readonly LSCPU2=$(lscpu | grep -e "CPU MHz" -e "CPU(s):" | column -t -R 2-6)
 readonly USO=$(top -bn1 | grep "CPU(s)" | awk '{print 100 - $8"%"}')
 readonly USO2=$(top -bn1 | grep "CPU(s)")
+readonly UPT=$(uptime | cut -d" " -f3-)
 
 
 # Panel
@@ -17,7 +18,7 @@ INFO+="</txt><txtclick>xfce4-taskmanager</txtclick>"
 
 # Tooltip
 MORE_INFO="<tool>"
-MORE_INFO+="CPU:  ${USO}\n\n"
+MORE_INFO+="CPU:  ${USO}  ${UPT}\n\n"
 MORE_INFO+="${LSCPU}\n"
 MORE_INFO+="${LSCPU2}\n\n"
 MORE_INFO+="${USO2}"
