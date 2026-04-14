@@ -11,7 +11,7 @@ readonly UPGLIST=$(apt-get -s upgrade | grep -P '^\d+' )
 INFO+="<txt>"
 INFO+="<span weight='Bold' fgcolor='#FFFFFF'>Upd: </span>"
 INFO+="<span fgcolor='#FFFFFF'>${TOTAL}</span>"
-INFO+="</txt>"
+INFO+="</txt><txtclick>synaptic-pkexec</txtclick>"
 
 # Tooltip
 MORE_INFO="<tool>"
