@@ -16,7 +16,7 @@ INFO+="</txt><txtclick>xfce4-sensors</txtclick>"
 
 # Tooltip
 MORE_INFO="<tool>"
-MORE_INFO+="SENSORES:\n\n${TEMP_ALL}"
+MORE_INFO+="<span font='Monospace 9'>SENSORES:\n\n${TEMP_ALL}</span>"
 MORE_INFO+="</tool>"
 
 # Panel Print

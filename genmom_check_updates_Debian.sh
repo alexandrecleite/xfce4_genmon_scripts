@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # by Alexandre Cerqueira Leite
-# Depende do gerenciador de pacotes apt e do grep
+# Depende do gerenciador de pacotes apt, grep e synaptic
 # Use 3600.00 seg de update 
 
 #Pegando IPs
