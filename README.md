@@ -15,7 +15,7 @@ Abaixo alguns exemplos das tooltips:
 <BR><BR>
 <p align="center">
 CPU<BR>  
-<img width="466" height="338" alt="CPU" src="https://github.com/user-attachments/assets/93c20c10-2f13-4a78-b909-5a5ec21caa23" />
+<img width="466" height="296" alt="CPU" src="https://github.com/user-attachments/assets/ebe4efcb-4865-4ae5-a9ba-4d0e66d426b6" />
 <BR><BR>  
 Temperatura CPU:<BR>
 <img width="434" height="231" alt="Temp" src="https://github.com/user-attachments/assets/0ad5841f-15d4-4dbb-909d-6c99df2f753c" />
