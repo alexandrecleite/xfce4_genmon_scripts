@@ -8,7 +8,7 @@ readonly LSCPU2=$(lscpu | grep -e "CPU MHz" -e "CPU(s):" | column -t -R 2-6)
 readonly USO=$(top -bn1 | grep "CPU(s)" | awk '{print 100 - $8"%"}')
 readonly USO2=$(top -bn1 | grep "CPU(s)")
 readonly UPT=$(uptime | cut -d" " -f3-)
-readonly PROCS=$(ps -eo pid,user,%cpu,%mem,comm --sort=-%cpu | grep -vw "ps"| head | column -t -H6,7)
+readonly PROCS=$(ps -eo pid,user,%cpu,%mem,comm --sort=-%cpu | grep -vw "ps"| head)
 
 
 # Panel
