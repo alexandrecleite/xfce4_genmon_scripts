@@ -15,13 +15,25 @@ Abaixo alguns exemplos das tooltips:
 <BR><BR>
 <p align="center">
 CPU<BR>  
-<img width="528" height="196" alt="genmon07" src="https://github.com/user-attachments/assets/6c840aa1-881a-4582-9e4e-eca3af4babfa" />
+<img width="466" height="338" alt="CPU" src="https://github.com/user-attachments/assets/93c20c10-2f13-4a78-b909-5a5ec21caa23" />
 <BR><BR>  
+Temperatura CPU:<BR>
+<img width="434" height="231" alt="Temp" src="https://github.com/user-attachments/assets/0ad5841f-15d4-4dbb-909d-6c99df2f753c" />
+<BR><BR>
+Memória:<BR>
+<img width="248" height="239" alt="Mem" src="https://github.com/user-attachments/assets/835ce779-3d20-4da2-89f6-5d7f2f4ef773" />
+<BR><BR>
+Disco:<BR>
+<img width="579" height="276" alt="HD" src="https://github.com/user-attachments/assets/8828f050-f1d5-41b0-aa10-93ef509e01a7" />
+<BR><BR>
 Clima<BR> 
-<img width="267" height="219" alt="genmon08" src="https://github.com/user-attachments/assets/1c5dba83-8985-486c-a2f2-614e095dc696" />  
+<img width="213" height="205" alt="Clima" src="https://github.com/user-attachments/assets/92c73632-3813-4820-b7bb-2e174eb790f9" />
 <BR><BR> 
-HD (partição /Home)<BR>
-<img width="323" height="107" alt="genmon10" src="https://github.com/user-attachments/assets/75e4ce59-938a-4a71-a8a8-08b9970e6fa7" />
+Updates:<BR>
+<img width="581" height="99" alt="Updates" src="https://github.com/user-attachments/assets/98af6b24-560e-4c75-ad73-84e600b2c45c" />
+<BR><BR>
+Rede:<BR>
+<img width="377" height="158" alt="Rede" src="https://github.com/user-attachments/assets/4f0c8786-10a7-4374-a0f8-ce96e52a40c7" />
 </p>
 <BR><BR> <BR><BR> 
 <H3>Tutorial de instalação no meu Blog:</H3>
