@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # by Alexandre Cerqueira Leite
 # Depende do Top, Grep e Awk
-# Use 3.00 seg de update 
+# Use 5.00 seg de update 
 
 readonly LSCPU=$(lscpu | grep -e "modelo" | column -t)
 readonly LSCPU2=$(lscpu | grep -e "CPU MHz" -e "CPU(s):" | column -t -R 2-6)
