@@ -14,7 +14,7 @@ INFO+="</txt><txtclick>thunar</txtclick>"
 
 # Tooltip
 MORE_INFO="<tool><span font='Monospace 9'>"
-MORE_INFO+="<span weight='Bold' fgcolor='#FFFFFF'>DISCO:\n</span>\n"
+MORE_INFO+="<span weight='Bold' fgcolor='#FFFFFF'>DISCO: (Livre em /home) ${USOHD}\n</span>\n"
 MORE_INFO+="${DFH}"
 MORE_INFO+="</span></tool>"
 
