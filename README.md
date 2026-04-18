@@ -24,7 +24,7 @@ Memória:<BR>
 <img width="248" height="239" alt="Mem" src="https://github.com/user-attachments/assets/835ce779-3d20-4da2-89f6-5d7f2f4ef773" />
 <BR><BR>
 Disco:<BR>
-<img width="579" height="276" alt="HD" src="https://github.com/user-attachments/assets/8828f050-f1d5-41b0-aa10-93ef509e01a7" />
+<img width="580" height="278" alt="HD" src="https://github.com/user-attachments/assets/aa2f9d70-42df-42c9-8442-82667d8924ba" />
 <BR><BR>
 Clima<BR> 
 <img width="213" height="205" alt="Clima" src="https://github.com/user-attachments/assets/92c73632-3813-4820-b7bb-2e174eb790f9" />
