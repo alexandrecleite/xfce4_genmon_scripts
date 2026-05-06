@@ -6,6 +6,8 @@
 #Pegando IPs
 readonly TOTAL=$(apt-get -s upgrade | grep -P '^\d+' | cut -d " " -f1)
 readonly UPGLIST=$(apt-get -s upgrade | grep -P '^\d+' )
+readonly UPD=$(date | awk '{print substr($5,1,5)}')
+
 
 # Panel
 INFO+="<txt>"
@@ -15,7 +17,8 @@ INFO+="</txt><txtclick>synaptic-pkexec</txtclick>"
 
 # Tooltip
 MORE_INFO="<tool>"
-MORE_INFO+="Atualizações:\n\n${UPGLIST}"
+MORE_INFO+="Atualizações:\n\n${UPGLIST}\n\n"
+MORE_INFO+="Atualizado as ${UPD}"
 MORE_INFO+="</tool>"
 
 # Panel Print
