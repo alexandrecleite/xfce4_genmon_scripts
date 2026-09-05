@@ -5,7 +5,13 @@
 
 #Pegando IPs
 readonly TOTAL=$(apt-get -s upgrade | grep -P '^\d+' | cut -d " " -f1)
-readonly UPGLIST=$(apt-get -s upgrade | grep -P '^\d+' )
+readonly UPGLIST=$(apt-get -s upgrade | grep -P '^\d+' | awk -F ',[ ]*' '{
+    print $1; 
+    print $2; 
+    gsub(/ e /, "\n", $3); 
+	gsub(/\.$/, "", $3);
+    print $3
+}')
 readonly UPD=$(date | awk '{print substr($5,1,5)}')
 
 

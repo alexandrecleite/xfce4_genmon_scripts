@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # by Alexandre Cerqueira Leite
-# Depende do Curl, Grep e Cut
+# Depende do Curl, Grep, Cut e bandwhich
 # Use 600.00 seg de update 
 
 #Pegando IPs
@@ -14,7 +14,7 @@ readonly EXT6=$(curl -s ifconfig.me)
 INFO+="<txt>"
 INFO+="<span weight='Bold' fgcolor='#FFFFFF'>Rede: </span>"
 INFO+="<span fgcolor='#FFFFFF'>${INT}</span>"
-INFO+="</txt><txtclick>gufw</txtclick>"
+INFO+="</txt><txtclick>xfce4-terminal --maximize --command="bandwhich"</txtclick>"
 
 # Tooltip
 MORE_INFO="<tool>"

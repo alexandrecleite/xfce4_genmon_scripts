@@ -12,7 +12,8 @@ readonly UPD=$(date | cut -d" " -f5 | cut -d":" -f1,2)
 INFO+="<txt>"
 INFO+="<span weight='Bold' fgcolor='#FFFFFF'>Clima:</span>"
 INFO+="<span fgcolor='#FFFFFF'>${CLIMA}</span>"
-INFO+="</txt><txtclick>firefox -new-tab "https://www.google.com/search?q=clima"</txtclick>"
+INFO+="</txt><txtclick>firefox -new-tab "https://frogden.org/weather/"</txtclick>"
+#INFO+="</txt><txtclick>firefox -new-tab "https://www.google.com/search?q=clima"</txtclick>"
 
 # Tooltip
 MORE_INFO="<tool>"
